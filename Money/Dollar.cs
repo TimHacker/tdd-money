@@ -13,7 +13,7 @@ namespace Money
 
         public void Times(int multiplier)
         {
-            Amount = Amount * 2;
+            Amount = Amount * multiplier;
         }
     }
 }
