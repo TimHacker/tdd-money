@@ -13,7 +13,7 @@ namespace Money
         { 
             get 
             {
-                return 10;
+                return 5 * 2;
             }
         }
 
