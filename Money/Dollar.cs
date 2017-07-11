@@ -9,17 +9,11 @@ namespace Money
 
         }
 
-        public int Amount 
-        { 
-            get 
-            {
-                return 5 * 2;
-            }
-        }
+        public int Amount { get; set; }
 
         public void Times(int multiplier)
         {
-
+            Amount = 5 * 2;
         }
     }
 }
