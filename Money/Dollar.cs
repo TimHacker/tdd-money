@@ -9,7 +9,13 @@ namespace Money
 
         }
 
-        public int Amount;
+        public int Amount 
+        { 
+            get 
+            {
+                return 10;
+            }
+        }
 
         public void Times(int multiplier)
         {
