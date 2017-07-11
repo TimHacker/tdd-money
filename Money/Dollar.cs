@@ -6,14 +6,14 @@ namespace Money
     {
         public Dollar(int amount)
         {
-
+            Amount = amount;
         }
 
         public int Amount { get; set; }
 
         public void Times(int multiplier)
         {
-            Amount = 5 * 2;
+            Amount = Amount * 2;
         }
     }
 }
