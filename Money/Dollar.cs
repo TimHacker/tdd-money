@@ -11,9 +11,11 @@ namespace Money
 
         public int Amount { get; set; }
 
-        public void Times(int multiplier)
+        public Dollar Times(int multiplier)
         {
             Amount *= multiplier;
+
+            return null;
         }
     }
 }
