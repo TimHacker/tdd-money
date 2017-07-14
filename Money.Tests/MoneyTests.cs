@@ -23,6 +23,7 @@ namespace Money.Tests
         public void TestEquality()
         {
             Assert.Equal(new Dollar(5), new Dollar(5));
+            Assert.NotEqual(new Dollar(5), new Dollar(6));
         }
     }
 }
