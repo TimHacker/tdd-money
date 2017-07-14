@@ -12,3 +12,5 @@ The multi-currency Money TDD example from the'Test-Driven Development by Example
 * Money rounding?
 * ~~equals()~~
 * hashCode()
+* Equal null
+* Equal object
