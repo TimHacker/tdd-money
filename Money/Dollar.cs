@@ -6,14 +6,14 @@ namespace Money
     {
         public Dollar(int amount)
         {
-            Amount = amount;
+            _amount = amount;
         }
 
-        public int Amount { get; set; }
+        private int _amount;
 
         public Dollar Times(int multiplier)
         {
-            return new Dollar(Amount * multiplier);
+            return new Dollar(_amount * multiplier);
         }
 
         // override object.Equals
@@ -21,7 +21,7 @@ namespace Money
         {
             Dollar dollar = (Dollar)obj;
 
-            return Amount == dollar.Amount;
+            return _amount == dollar._amount;
         }
     }
 }
