@@ -31,6 +31,10 @@ namespace Money.Tests
             Assert.Equal(new Dollar(5), new Dollar(5));
             
             Assert.NotEqual(new Dollar(5), new Dollar(6));
+
+            Assert.Equal(new Frank(5), new Frank(5));
+            
+            Assert.NotEqual(new Frank(5), new Frank(6));
         }
     }
 }
