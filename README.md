@@ -14,4 +14,7 @@ The multi-currency Money TDD example from the'Test-Driven Development by Example
 * hashCode()
 * Equal null
 * Equal object
-* **5 CHF * 2 = 10 CHF**
+* ~~5 CHF * 2 = 10 CHF~~
+* Dollar/Franc duplication
+* Common equals
+* Common times
