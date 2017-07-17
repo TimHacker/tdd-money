@@ -13,13 +13,5 @@ namespace Money
         {
             return new Dollar(_amount * multiplier);
         }
-
-        // override object.Equals
-        public override bool Equals (object obj)
-        {
-            Dollar dollar = (Dollar)obj;
-
-            return _amount == dollar._amount;
-        }
     }
 }
