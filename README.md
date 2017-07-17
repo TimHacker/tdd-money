@@ -18,3 +18,36 @@ The multi-currency Money TDD example from the'Test-Driven Development by Example
 * Dollar/Franc duplication
 * ~~Common equals~~
 * Common times
+
+## How to run the tests yourself
+
+This is a .NET Core solution
+
+First follow the instructions on this page to get .NET Core installed locally:
+https://www.microsoft.com/net/core#windowscmd
+
+I used https://code.visualstudio.com/ and command line for this, but Visual Studio could also be used.
+
+If using command line then run these commands to get going:
+
+```
+dotnet restore
+```
+
+followed by this to get into the Test project
+
+```
+cd Money.Tests
+```
+
+and then this to run the tests with dotnet-watch to retest every time a file changes:
+
+```
+dotnet watch test
+``` 
+
+or if you want to just run the tests one time you can just run
+
+```
+dotnet test
+```
