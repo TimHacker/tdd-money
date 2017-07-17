@@ -16,6 +16,16 @@ namespace Money.Tests
         }
 
         [Fact]
+        public void TestFrankMultiplication()
+        {
+            Frank five = new Frank(5);
+
+            Assert.Equal(new Frank(10), five.Times(2));
+
+            Assert.Equal(new Frank(15), five.Times(3)); 
+        }
+
+        [Fact]
         public void TestEquality()
         {
             Assert.Equal(new Dollar(5), new Dollar(5));
