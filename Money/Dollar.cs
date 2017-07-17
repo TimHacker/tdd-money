@@ -2,14 +2,12 @@ using System;
 
 namespace Money
 {
-    public class Dollar
+    public class Dollar : Money
     {
         public Dollar(int amount)
         {
             _amount = amount;
         }
-
-        private int _amount;
 
         public Dollar Times(int multiplier)
         {
